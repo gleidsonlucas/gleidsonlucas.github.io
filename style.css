@@ -1,0 +1,28 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --cor1: #014040;
+    --cor2: #02735E;
+    --cor2: #03A678;
+    --cor4: #F27405;
+    --cor5: #731702;
+}
+header{
+    background-color: var(--cor1);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 120px;
+    color: white;
+}
+header > h1{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 45px;
+}
+header > nav  > a{
+    background-color: #02735E;
+    text-decoration: none;
+}
